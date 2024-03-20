@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+  <title>Encriptador</title>
+</head>
+<body>
+  
+  <header>
+    <img src="/img/Logo.webp" class="Logo" alt="Logo">
+  </header>
+
+  <main>
+
+    
+    <section>
+      <textarea class="textarea" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+
+          <div class="informaçao">
+            <h6>Apenas letras minúsculas e sem acento!</h6>
+          </div>
+
+        <div class="botoes">
+            <button class="encripitar" onclick="encriptar()">Criptografar</button>
+            <button class="Desencripitar" onclick="descriptografar()">descriptografar</button>
+        </div>
+    </section>
+
+    <section>
+      <textarea class="mensagem" cols="20" rows="10"></textarea>
+      <button class="copia" onclick="copiar">copiar</button>
+    </section>
+
+  </main>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
